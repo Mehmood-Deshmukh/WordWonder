@@ -34,6 +34,6 @@ button.click(() => {
       });
     })
     .catch((error) => {
-      output.html = `<h3 class="error">Sorry, We Couldn't find the Word</h3>`;
+      output.html(`<h3 class="error">Sorry, We Couldn't find the Word</h3>`);
     });
 });
