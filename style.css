@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+h1{
+  font-family: 'Black Ops One', cursive;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 0 0 3px #ffffff, 0 0 5px #000000; 
+  color:white;
+  margin-bottom: 0;
+}
+h6{
+    color:white;
+    text-align: center;
+    margin-top: 0;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+*{
+    padding: 0;
+    /* margin: 0; */
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.wrapper{
+    width: 92vmin;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 10%;
+    left: 50%;
+
+}
+.container{
+    width: 100%;
+    /* background-color: white; */
+    backdrop-filter: blur(7px) saturate(180%);
+    -webkit-backdrop-filter: blur(7px) saturate(180%);
+    background-color: rgba(198, 211, 236, 0.65);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+.search-conatiner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-conatiner input{
+    padding: 5px;
+    width: 70%;
+    border-style: solid;
+    border-color: #ffffff;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    background: transparent;    
+}
+::placeholder {
+    color: #ffffff;
+  }
+
+.search-conatiner button{
+    padding: 15px 0;
+    width: 25%;
+    background-color: transparent;
+    border: 2px  solid #ffffff;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.output {
+    position: relative;
+}
+
+.output h3{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.output .word{
+    display: flex;
+    justify-content: space-between;
+}
+
+.output button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 15px 0;
+    width: 4rem;
+    height: 4rem;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.output .details {
+    display: flex;
+    gap: 10px;
+    color: #ffffff;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+.word-meaning{
+    color: #ffffff;
+}
+
+.word-example{
+    color: #ffffff;
+    font-style: italic;
+    border-left: 5px solid #ffffff;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 0;
+
+}
+
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px){
+    .container{
+        padding: 40px 20px;
+    }
+    .search-conatiner button{
+        font-size: 14px;
+    }
+}
