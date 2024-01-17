@@ -24,6 +24,21 @@ WordWonder is an API-based dictionary app developed using jQuery. It is designed
    git clone https://github.com/Mehmood-Deshmukh/WordWonder.git
 
 
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+-   If you have suggestions for adding or removing features, feel free to [open an issue](https://github.com/Mehmood-Deshmukh/WordWonder/issues/new) to discuss it, or directly create a pull request with necessary changes.
+-   Create individual PR for each suggestion.
+
+### Creating A Pull Request
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 ## About the Developer
 
 WordWonder is developed by **Mehmood Deshmukh**
