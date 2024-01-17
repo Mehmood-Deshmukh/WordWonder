@@ -22,3 +22,16 @@ WordWonder is an API-based dictionary app developed using jQuery. It is designed
 
    ```bash
    git clone https://github.com/Mehmood-Deshmukh/WordWonder.git
+
+
+## About the Developer
+
+WordWonder is developed by **Mehmood Deshmukh**
+
+### Connect with Me
+
+- LinkedIn: [Mehmood Deshmukh](https://www.linkedin.com/in/mehmood-deshmukh-93533a2a7/)
+- GitHub: [Mehmood-Deshmukh](https://github.com/Mehmood-Deshmukh)
+
+Feel free to reach out for collaboration, feedback, or just to say hi!
+
